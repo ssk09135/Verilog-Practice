@@ -1,0 +1,10 @@
+initial begin
+        $dumpfile("테스트벤치 파일이름.vcd");
+        $dumpvars(0, 테스트벤치 모듈 이름.v);
+    end
+
+iverilog -o [시뮬에 넣을 파일명] [testbench 파일명] [모듈 파일명] [모듈 파일명] ... [모듈 파일명]
+
+vvp [시뮬에 넣을 파일명] -vcd
+
+gtkwave에다가 vcd 파일 스크롤해서 집어 넣고 append

@@ -6,6 +6,5 @@ module full_adder_4bit (
     output wire[3:0] S,
     output wire Cout
 );
-    {Cout, S} = A + B + Cin;
-    
+    assign {Cout, S} = A + B + Cin;
 endmodule
