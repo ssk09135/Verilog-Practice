@@ -2,7 +2,7 @@ module tb_full_adder();
     
     initial begin
         $dumpfile("tb_full_adder.vcd");
-        $dumpvars(0, full_adder_4bit);
+        $dumpvars(0, tb_full_adder)
     end
     reg [3:0] A;
     reg [3:0] B;
