@@ -1,0 +1,151 @@
+$date
+	Sat Oct  4 16:36:09 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module four_bit_register_tb $end
+$var wire 4 ! q [3:0] $end
+$var reg 1 " async_clear $end
+$var reg 1 # async_preset $end
+$var reg 1 $ clk $end
+$var reg 4 % data_in [3:0] $end
+$var reg 1 & enable $end
+$scope module uut $end
+$var wire 1 " async_clear $end
+$var wire 1 # async_preset $end
+$var wire 1 $ clk $end
+$var wire 4 ' data_in [3:0] $end
+$var wire 1 & enable $end
+$var reg 4 ( q [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx (
+b0 '
+0&
+b0 %
+0$
+0#
+0"
+bx !
+$end
+#5
+1$
+#10
+0$
+#15
+1$
+#20
+0$
+#25
+1$
+#30
+0$
+#35
+1$
+#40
+0$
+#45
+1$
+#50
+0$
+#55
+1$
+#60
+0$
+#65
+1$
+#70
+0$
+#75
+1$
+#80
+0$
+#85
+1$
+#90
+0$
+#95
+1$
+#100
+0$
+#105
+1$
+#110
+b0 !
+b0 (
+0$
+1"
+#115
+1$
+#120
+0$
+0"
+#125
+1$
+#130
+b1111 !
+b1111 (
+0$
+1#
+#135
+1$
+#140
+0$
+0#
+#145
+1$
+#150
+0$
+b1010 %
+b1010 '
+1&
+#155
+b1010 !
+b1010 (
+1$
+#160
+0$
+#165
+1$
+#170
+0$
+b101 %
+b101 '
+#175
+b101 !
+b101 (
+1$
+#180
+0$
+b1111 %
+b1111 '
+0&
+#185
+1$
+#190
+0$
+1&
+#195
+b1111 !
+b1111 (
+1$
+#200
+0$
+#205
+1$
+#210
+0$
+#215
+1$
+#220
+0$
